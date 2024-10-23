@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #141519;
+}
+.main-box{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #212832;
+    font-family: Overpass;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+}
+.main-box p{
+    color: #969DA7;
+    font-size: 12px;
+}
+.numbers{
+    text-align: center;
+}
+.numbers button{
+    border: 0px;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-color: #262F38;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: white;
+    display: inline-block;
+}
+.numbers button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.clicked{
+    background-color: #FC7613;
+}
+
+#Submit{
+    font-family: Overpass;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 0px;
+    background-color: #FC7613;
+}
+#Submit:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#thank_you{
+    position: relative;
+    left: 50px;
+}
+#you_selected_{
+    align-items: center;
+    margin: 0% auto;
+    justify-content: center;
+    width: 45%;
+    height: 16px;
+    font-family: Overpass;
+    padding: 5px;
+    padding-left: 18px;
+    font-size: 12px;
+    color: #FC7613;
+    background-color: #292e32;
+    border-radius: 15px;
+
+}
+
+.main-box2{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #212832;
+    font-family: Overpass;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    display: none;
+}
